@@ -180,21 +180,61 @@
         <div class="row">
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
-                <p>Some java codes ::-):</p>
-<pre class="line-numbers language-language-java"><code class="language-language-java">
-package someTest;
+                <p>[TOC]</p>
+<h1 id="heading-1"><a class="markdownIt-Anchor" href="#heading-1"></a> Heading 1</h1>
+<p>Some java codes 😄</p>
+<h2 id="heading-2-codes"><a class="markdownIt-Anchor" href="#heading-2-codes"></a> Heading 2 codes</h2>
+<pre class="highlight"><code class="java">
+<span class="keyword">package</span> someTest;
 
-import java.util.Arrays;
+<span class="keyword">import</span> java.util.Arrays;
 
-public class ArrayMethod {
+<span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ArrayMethod</span> </span>{
 
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        String[] colors = { "blue", "red", "green", "yellow", "orange", "black" };
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>{
+        <span class="comment">// TODO Auto-generated method stub</span>
+        String[] colors = { <span class="string">"blue"</span>, <span class="string">"red"</span>, <span class="string">"green"</span>, <span class="string">"yellow"</span>, <span class="string">"orange"</span>, <span class="string">"black"</span> };
 
         Arrays.sort(colors);
-        //for排序
-         for(int i=0;i<colors.length;i++) {="" system.out.println(colors[i]+",");="" }="" system.out.println();="" system.out.println("另一种排序");="" for排列="" for(string="" element:="" colors)="" system.out.println(element);="" int="" s2="Arrays.binarySearch(colors," "black");="" s3="Arrays.binarySearch(colors," "red");="" system.out.println(s2="" +="" ","="" s3);="" <span="" aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></colors.length;i++)></code></pre>
+        <span class="comment">//for排序</span>
+         <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;colors.length;i++) {
+         System.out.println(colors[i]+<span class="string">","</span>);
+         }
+         
+         System.out.println();
+         
+         System.out.println(<span class="string">"另一种排序"</span>);
+         
+        <span class="comment">//for排列</span>
+        <span class="keyword">for</span>(String element: colors) {
+            System.out.println(element);
+        }
+
+<span class="comment">//      int s2 = Arrays.binarySearch(colors, "black");</span>
+<span class="comment">//      int s3 = Arrays.binarySearch(colors, "red");</span>
+<span class="comment">//</span>
+<span class="comment">//      System.out.println(s2 + "," + s3);</span>
+    }
+}
+
+</code></pre>
+<h2 id="tables"><a class="markdownIt-Anchor" href="#tables"></a> tables</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Header 1</th>
+<th style="text-align:right">Header 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">content 1</td>
+<td style="text-align:right">content 2</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/open-book.jpg" alt="open-book"></p>
+<img src="http://qsblog.qiniudn.com/static/images/magazine.jpg">
 
                 <hr>
                 
@@ -241,7 +281,7 @@ public class ArrayMethod {
 
             <div class="hidden-xs col-sm-3 toc-col">
                 <div class="toc-wrap">
-                    
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#heading-1"><span class="toc-text"> Heading 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#heading-2-codes"><span class="toc-text"> Heading 2 codes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tables"><span class="toc-text"> tables</span></a></li></ol></li></ol>
                 </div>
             </div>
         </div>

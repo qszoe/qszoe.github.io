@@ -178,8 +178,8 @@
         <div class="row">
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
-                <h1>FOCS CH1 绪论</h1>
-<h2>图灵模型</h2>
+                <h1 id="focs-ch1-绪论"><a class="markdownIt-Anchor" href="#focs-ch1-绪论"></a> FOCS CH1 绪论</h1>
+<h2 id="图灵模型"><a class="markdownIt-Anchor" href="#图灵模型"></a> 图灵模型</h2>
 <ol>
 <li>
 <p>当今计算机建立在<strong>冯诺依曼模型</strong>基础上的。</p>
@@ -191,10 +191,10 @@
 <li>
 <p>数据处理器</p>
 <p>如果计算机被定义为数据处理器，则可以看成是 <u>接受输入数据、处理数据并产生输出数据</u> 的黑盒。</p>
-<pre class="line-numbers language-language-mermaid"><code class="language-language-mermaid">graph LR
-input( 输入数据 ) --> computer[ 单任务计算机 ]
-	computer --> output( 输出数据 )
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<pre class="highlight"><code class="mermaid">graph LR
+input( 输入数据 ) --&gt; computer[ 单任务计算机 ]
+	computer --&gt; output( 输出数据 )
+</code></pre>
 </li>
 <li>
 <p>通用计算机</p>
@@ -209,12 +209,12 @@ input( 输入数据 ) --> computer[ 单任务计算机 ]
 </li>
 <li>
 <p>可编程数据处理器模型</p>
-<pre class="line-numbers language-language-mermaid"><code class="language-language-mermaid">graph LR
-input( 输入数据 ) --> computer[ 单任务计算机 ]
-computer --> program(程序)
-program --> output( 输出数据 )
+<pre class="highlight"><code class="mermaid">graph LR
+input( 输入数据 ) --&gt; computer[ 单任务计算机 ]
+computer --&gt; program(程序)
+program --&gt; output( 输出数据 )
 	
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</code></pre>
 </li>
 </ul>
 </li>
@@ -227,8 +227,8 @@ program --> output( 输出数据 )
 </ul>
 </li>
 </ol>
-<h2>冯 ▪ 诺依曼模型</h2>
-<h3>冯 ▪ 诺依曼模型的结构</h3>
+<h2 id="冯-诺依曼模型"><a class="markdownIt-Anchor" href="#冯-诺依曼模型"></a> 冯 ▪ 诺依曼模型</h2>
+<h3 id="冯-诺依曼模型的结构"><a class="markdownIt-Anchor" href="#冯-诺依曼模型的结构"></a> 冯 ▪ 诺依曼模型的结构</h3>
 <p>1944~1945年间，冯 ▪ 诺依曼提出因程序和数据在逻辑上相同的，程序也能储存在存储器中。他要求<strong>程序必须存储在内存中</strong>，这也是与早期那种只有数据存储在存储器中的计算机结构的完全不同之处。</p>
 <p>而计算机存储单元用来存储数据和程序，这说明了数据和程序的<strong>格式是相同</strong>的。实际上，数据和程序是以**位模式（0和1的序列）**存储在内存中。</p>
 <p>冯 ▪ 诺依曼模型中，程序是由一组<u>数量有限</u>的<strong>指令</strong>组成。指令执行的顺序就是一条一条地执行，也包括那些包含了跳转任务的指令。指令的执行顺序是基于冯 ▪ 诺依曼模型的计算机的<u>初始条件</u>。而当今的计算机是以最高效的顺序来执行程序的。</p>
@@ -306,7 +306,7 @@ program --> output( 输出数据 )
 
             <div class="hidden-xs col-sm-3 toc-col">
                 <div class="toc-wrap">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-text">FOCS CH1 绪论</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">图灵模型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">冯 ▪ 诺依曼模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-text">冯 ▪ 诺依曼模型的结构</span></a></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#focs-ch1-绪论"><span class="toc-text"> FOCS CH1 绪论</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#图灵模型"><span class="toc-text"> 图灵模型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#冯-诺依曼模型"><span class="toc-text"> 冯 ▪ 诺依曼模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#冯-诺依曼模型的结构"><span class="toc-text"> 冯 ▪ 诺依曼模型的结构</span></a></li></ol></li></ol></li></ol>
                 </div>
             </div>
         </div>
